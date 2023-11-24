@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #F1F1F1;
+}
+
+nav {
+    background-color:#1C181D ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px 20px;
+}
+
+.shopify-logo {
+    height: 40px;
+}
+
+.search-bar {
+    width: 100%;
+    max-width: 500px;
+}
+
+/* Style for the input */
+.search-bar input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    background-color: #303030;
+    color: white;
+    transition: background-color 0.3s, border-color 0.3s;
+    outline: none;
+}
+
+
+.search-bar input:focus,
+.search-bar input:active {
+    border-color: white;
+}
+
+.notification-profile h2 {
+    color: #E3E3E3 ; 
+    font-size: 14px;
+    background-color: #322F33;
+    padding: 5px 10px;
+}
+
+.notification-profile .text-green {
+    background-color: #35F89F;
+    padding: 5px 10px;
+    color: #000;
+    border-radius: 10px;
+    font-weight: lighter
+
+}
