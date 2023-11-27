@@ -33,6 +33,23 @@ nav {
   max-width: 500px;
 }
 
+.searchBarContainer {
+  display: flex;
+  width: 480px;
+  height: 32px;
+  padding: 8px;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid var(--stroke-s-200, #616161);
+  background: var(--grey-g-200, #303030);
+}
+.navbarSearchIcon {
+  width: 20px;
+  height: 20px;
+}
+
 /* Style for the input */
 .search-bar input {
   width: 100%;
@@ -63,6 +80,63 @@ nav {
   color: #000;
   border-radius: 10px;
   font-weight: lighter;
+}
+
+.navbarNotificationIconAndCollectionContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+}
+
+.navbarNotificationIconContainer {
+  display: flex;
+  width: 32px;
+  height: 32px;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  background: var(--grey-grey-200, #303030);
+}
+
+.navbarNotificationCollection {
+  color: var(--font-light, #e3e3e3);
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 15.6px;
+}
+
+.navbarCollectionAndInitial {
+  display: flex;
+  padding: 2px 2px 2px 8px;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  background: var(--grey-grey-50, #656266);
+}
+
+.navbarInitialContainer {
+  display: flex;
+  height: 28px;
+  padding: 9px 5px 10px 5px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  background: #36fba1;
+}
+
+.navbarInitialText {
+  color: rgba(0, 0, 0, 0.4);
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 15.6px;
 }
 
 .planAndSetupGuideSection {
