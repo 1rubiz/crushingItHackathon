@@ -51,9 +51,8 @@ nav {
 }
 
 /* Style for the input */
-.search-bar input {
+.searchbarInput {
   width: 100%;
-  padding: 10px;
   border-radius: 10px;
   border: 2px solid transparent;
   background-color: #303030;
@@ -62,9 +61,10 @@ nav {
   outline: none;
 }
 
-.search-bar input:focus,
-.search-bar input:active {
-  border-color: white;
+.searchbarInput:focus,
+.searchbarInput:active {
+  border-color: #303030;
+  outline: none;
 }
 
 .notification-profile h2 {
